@@ -1,0 +1,488 @@
+/*********************************** KERNEL *****************************************/
+.moonlight_msgbox{
+	padding:10px; 
+}
+
+.moonlight_desc{
+	font-size:12px;
+	font-weight:normal;
+}
+
+.moonglight_designer{
+	display:none;
+	text-align:left;
+}
+
+/*********************************** GENERAL *****************************************/
+
+BODY{
+	font-family:verdana,arial;
+	font-size:11px;
+	margin:0px;
+}
+
+TD,
+P{
+	font-family:verdana,arial;
+	font-size:11px;
+}
+
+INPUT,
+BUTTON,
+TEXTAREA,
+LABEL,
+SELECT{
+	font-family:verdana,arial;
+	font-size:11px;
+}
+
+
+A,
+A:link,
+A:visited{
+	text-decoration:none;
+}
+
+A:hover{
+	text-decoration:underline;
+}
+
+.combo{
+	height:24px;
+}
+
+.combo OPTION{
+	height:24px;
+	padding:2px 2px 2px 2px;
+}
+
+.text,
+.text_compulsory{
+	height:24px;
+	padding:4px 4px 4px 4px;
+}
+
+.text_focus,
+.text_compulsory_focus{
+	height:24px;
+	padding:4px 4px 4px 4px;
+}
+
+.text_with_icon,
+.text_compulsory_with_icon{
+	height:24px;
+	padding:4px 4px 4px 24px;
+
+}
+
+.text_with_icon_focus,
+.text_compulsory_with_icon_focus{
+	height:24px;
+	padding:4px 4px 4px 24px;
+}
+
+.text_datetime,
+.text_compulsory_datetime{
+	height:24px;
+	padding:4px 4px 4px 24px;
+}
+
+.text_focus_datetime,
+.text_compulsory_focus_datetime{
+	height:24px;
+	padding:4px 4px 4px 24px;
+}
+
+.text_icon,
+.text_compulsory_icon,
+.text_datetime_icon,
+.text_compulsory_datetime_icon,
+.text_focus_datetime_icon,
+.text_compulsory_focus_datetime_icon{
+	position:absolute; 
+	margin-top:5px;
+	margin-left:4px;
+}
+
+.text_textarea,
+.text_compulsory_textarea{
+}
+
+.text_focus_textarea,
+.text_compulsory_focus_textarea{
+}
+
+.lbl, 
+.lbl label{
+	font-weight:normal;
+	vertical-align:top;
+}
+
+.lbl_compulsory, 
+.lbl_compulsory label{
+	font-weight:bold;
+	vertical-align:top;
+}
+.lbl_compulsory label{
+	background: url("res/star.gif") no-repeat left top;
+	padding-left:8px;
+}
+
+
+/*********************************** THEME RELATED *****************************************/
+.themeLeft{
+}
+
+.themeRight{
+}
+
+.themeMain{
+	/*height:600px;*/
+}
+
+.themeHeader{
+	vertical-align:top;
+	/*height:10px;*/
+}
+
+.themeBody{
+	vertical-align:top;
+	padding-top:10px;
+	height:450px;
+}
+
+.themeBodyLeft{
+	width:20%;
+	vertical-align:top;
+}
+
+.themeBodyCentre{
+	vertical-align:top;
+}
+
+.themeBodyRight{
+	width:25%;
+	vertical-align:top;
+}
+
+.themeFooter{
+	height:10px;
+}
+
+.themeFooter A,
+.themeFooter A:link,
+.themeFooter A:visited,
+.themeFooter A:active{
+	text-decoration:none;
+}
+
+.themeFooter A:hover{
+	text-decoration:underline;
+}
+
+.theme_color_selector{
+	margin-left:3px;
+}
+
+.theme_color_selector_selected{
+	margin-left:3px;
+}
+
+/*********************************** FORM RELATED *****************************************/
+.formLabelCompulsory{
+	text-align:right;
+}
+
+.formInput{
+	text-align:left;
+}
+
+.formButtonBar{
+	text-align:center;
+}
+
+.fieldset{
+	margin:5px 10px;
+	padding:5px;
+}
+
+.fieldset .legend{
+	font-weight:normal;
+}
+
+/*********************************** INPUT RELATED *****************************************/
+.button {
+	cursor: pointer;
+	border: 1px outset #ccc;
+}
+
+.buttonBack {
+	cursor: pointer;
+	padding: 1px 2px; 
+}
+
+.buttonDelete {
+	cursor: pointer;
+	padding: 1px 2px; 
+}
+
+.buttonCancel {
+	cursor: pointer;
+	padding: 1px 2px; 
+}
+
+
+/*********************************** LINK RELATED *****************************************/
+.buttonLink{
+	padding:3px;
+	cursor:pointer;
+	display:inline-block;
+}
+
+.buttonLinkDelete{
+	padding:3px;
+	cursor:pointer;
+	display:inline-block;
+}
+
+.buttonLinkBack{
+	padding:3px;
+	cursor:pointer;
+	display:inline-block;
+}
+
+.iconField{
+	width:200px;
+	padding:0px;
+	height:22px;
+	display:inline-block;
+}
+
+.iconField .field{
+	border:0px;
+	width:90%;
+	height:14px;
+	font-size:12px;
+}
+
+/*********************************** ERROR *****************************************/
+input.error{
+}
+div.error {
+	margin-left:2px;
+	margin-bottom:2px;
+	display:block;
+	padding: 5px;
+}
+span.error {
+	display:inline;
+	padding: 2px;
+}
+
+/*********************************** RECORD LISTING *********************************/
+
+.record_listing {
+	width:100%;
+}
+
+.record_listing thead th {
+	font-family:Verdana;
+	font-size:8pt;
+	font-weight:bold;
+	padding:4px;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.record_listing thead th A,
+.record_listing thead th A:link,
+.record_listing thead th A:visited,
+.record_listing thead th A:active,
+.record_listing thead th A:hover{
+}
+
+.record_listing tr {
+}
+
+.record_listing td {
+	padding:3px;
+	vertical-align:top;
+}
+
+.record_listing .normal {
+}
+
+.record_listing .odd {
+}
+
+.record_listing .selected {
+	cursor:pointer;
+}
+
+.record_listing .highlight{
+	cursor:pointer;
+}
+
+.record_listing .remark{
+}
+
+/***************************************PAGING***********************************/
+.customToolbar{
+	padding: 2px 0px;
+}
+
+.customToolbar FONT {
+  font-size: 8pt;
+  font-weight:normal;
+}
+
+.customToolbar ul{
+  font: bold 11px verdana;
+  padding-top: 5px;
+  padding-left: 0;
+  margin-left: 0;
+  height: 30px;
+  margin:0px;
+}
+
+.customToolbar ul li{
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+}
+
+.customToolbar ul li A{
+  padding: 4px 0.5em 4px 0.5em;
+  text-decoration: none;
+}
+
+.customToolbar ul li a:link{
+  padding: 4px 0.5em 4px 0.5em;
+  text-decoration: none;
+}
+
+.customToolbar ul li a:visited{
+  padding: 4px 0.5em 4px 0.5em;
+  text-decoration: none;
+}
+
+.customToolbar ul li a:hover{
+}
+
+.customToolbar ul li span{
+  padding: 4px 0.5em 4px 0.5em;
+  text-decoration: none;
+}
+
+/* ---------------------------- Calendar -------------------------------*/
+.CalendarHeader{
+}
+.CalendarHeader TR TD{
+	height:30px;
+}
+
+.CalendarTitle{
+	font-size:14px;
+}
+.CalendarTable{
+}
+.CalendarTable THEAD TR TH{
+	border:0px;
+	font-size: 11px;
+	padding: 2px;
+	vertical-align:bottom;
+}
+
+.CalendarTable TD{
+	font-size: 14px;
+	font-weight:bold;
+	font-family:verdana,tahoma,arial;
+}
+.CalendarTable TD .task_indicator{
+	font-size:30px;
+	font-family:"Times New Roman";
+}
+
+.CalendarColumn{
+	font-size: 12px;
+}
+.CalendarColumnHoliday{
+}
+.CalendarColumnToday{
+}
+.CalendarColumnMeeting{
+	cursor:pointer;
+}
+
+
+.calendar_day{
+	width:96px;
+	height:101px;
+	text-align:center;
+}
+
+.calendar_day .month{
+	position:relative;
+	top:24px;
+	padding-left:3px;
+	font-weight:bold;
+}
+
+.calendar_day .day{
+	position:relative;
+	top:26px;
+	font-size:32px;
+	font-weight:bold;
+	font-family:verdana;
+}
+
+.calendar_day .weekday{
+	position:relative;
+	top:23px;
+}
+
+.calendar_day_holiday{
+	width:96px;
+	height:101px;
+	text-align:center;
+}
+
+.calendar_day_holiday .month{
+	position:relative;
+	top:24px;
+	padding-left:3px;
+	font-weight:bold;
+}
+
+.calendar_day_holiday .day{
+	position:relative;
+	top:26px;
+	font-size:32px;
+	font-weight:bold;
+	font-family:verdana;
+}
+
+.calendar_day_holiday .weekday{
+	position:relative;
+	top:23px;
+}
+
+.offline{
+	padding:10px; 
+	text-align:center;
+	font-size:14px;
+}
+
+.offline .important{
+	font-weight:bold;
+}
+
+.offline_editing{
+	float:right;
+	padding:4px;
+}
+
+.read_only{
+	float:right;
+	padding:4px;
+}

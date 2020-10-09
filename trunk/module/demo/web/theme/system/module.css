@@ -1,0 +1,42 @@
+/*********************************** KERNEL *****************************************/
+.moonlight_msgbox{
+	padding:10px; 
+}
+
+.moonlight_desc{
+	font-size:12px;
+	font-weight:normal;
+}
+
+.moonglight_designer{
+	display:none;
+	text-align:left;
+}
+
+/*********************************** GENERAL *****************************************/
+.login_card{
+	box-shadow: 0px 0px 15px 5px #d3d8d7;
+}
+
+.nav_shadow{
+	box-shadow: 0px 0px 5px 1px #000;
+}
+
+footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
+/*********************************** ERROR *****************************************/
+input.error{
+}
+div.error {
+	margin-left:2px;
+	margin-bottom:2px;
+	display:block;
+	padding: 5px;
+}
+span.error {
+	display:inline;
+	padding: 2px;
+}

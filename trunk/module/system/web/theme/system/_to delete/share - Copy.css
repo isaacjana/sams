@@ -1,0 +1,418 @@
+/*********************************** KERNEL *****************************************/
+.moonlight_msgbox{
+	border:1px solid #000000; 
+	padding:10px; 
+	background-color:#C0C0C0
+}
+
+.moonlight_desc{
+	color:#808080;
+	font-size:11px;
+	font-weight:normal;
+}
+
+.moonglight_designer{
+	display:none;
+	text-align:left;
+	color:#ff0000;
+}
+
+/*********************************** GENERAL *****************************************/
+
+BODY{
+	background-color:#F2F2F2;
+	background-color:#FFFFFF;
+	font-family:verdana,arial;
+	font-size:11px;
+	margin:0px;
+}
+
+TD, 
+INPUT,
+BUTTON,
+SELECT{
+	font-family:verdana,arial;
+	font-size:11px;
+}
+
+
+A,
+A:link,
+A:visited{
+	color:#0080C0;
+	text-decoration:none;
+}
+
+A:hover{
+	color:#004080;
+	text-decoration:underline;
+}
+
+.text,
+.text_compulsory{
+	/*background: transparent url("res/textbox.gif") repeat-x;
+	border:1px solid #808080;*/
+	font-family:verdana,arial;
+	font-size:11px;
+}
+
+.lbl{
+	font-weight:normal;
+	vertical-align:top;
+	text-align:right;
+}
+
+.lbl_compulsory{
+	font-weight:bold;
+	vertical-align:top;
+	text-align:right;
+}
+
+/*********************************** THEME RELATED *****************************************/
+.themeLeft{
+	background: url(res/shadow_left.gif) left repeat-y;
+	width:25px;
+}
+.themeRight{
+	background: url(res/shadow_right.gif) right repeat-y;
+	width:25px;
+}
+
+.themeMain{
+	width:920px;
+	height:500px;
+	background: url(res/bg_blue.jpg) right top repeat-x;
+}
+
+.themeHeader{
+	vertical-align:top;
+	height:10px;
+}
+
+.themeBody{
+	vertical-align:top;
+}
+
+.themeBodyLeft{
+	width:20%;
+	vertical-align:top;
+}
+
+.themeBodyCentre{
+	vertical-align:top;
+}
+
+.themeBodyRight{
+	width:25%;
+	vertical-align:top;
+}
+
+.themeFooter{
+	color:#ffffff;
+	background:#004F9D;
+	height:10px;
+}
+
+/*********************************** FORM RELATED *****************************************/
+.formLabelCompulsory{
+	text-align:right;
+	color:#0080C0;
+}
+
+.formInput{
+	text-align:left;
+}
+
+.formButtonBar{
+	text-align:center;
+}
+
+.fieldset{
+}
+
+.fieldset .legend{
+	font-weight:bold;
+	color:#0080C0;
+}
+
+/*********************************** INPUT RELATED *****************************************/
+.button {
+  cursor: pointer;
+  border: 1px outset #ccc;
+  background: #FF8C00;
+  color: #000000;
+  /*padding: 1px 2px; */
+  background:url("res/button.gif") repeat-x left top;
+}
+
+.buttonBack {
+  cursor: pointer;
+  border: 1px outset #ccc;
+  background: #FF8C00;
+  color: #000000;
+  padding: 1px 2px; 
+  background:url("res/button_back.gif") repeat-x left top;
+}
+
+.buttonDelete {
+  cursor: pointer;
+  border: 1px outset #ccc;
+  background: #FF8C00;
+  color: #000000;
+  padding: 1px 2px; 
+  background:url("res/button_delete.gif") repeat-x left top;
+}
+
+.buttonCancel {
+  cursor: pointer;
+  border: 1px outset #ccc;
+  background: #FF8C00;
+  color: #000000;
+  padding: 1px 2px; 
+  background:url("res/button_copy.gif") repeat-x left top;
+}
+
+/*********************************** BOX RELATED *****************************************/
+.box{
+	border:1px dotted #0080C0;
+	padding:5px;
+	background-color:#f4f4f4;
+	margin-top:5px;
+	margin-right:5px;
+	width:99%;
+}
+
+.box .title{
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	padding-bottom:5px;
+}
+
+.box .content{
+
+}
+
+/*********************************** LINK RELATED *****************************************/
+.buttonLink{
+	padding:3px;
+	border-top:1px solid #C0C0C0;
+	border-left:1px solid #C0C0C0;
+	border-right:1px solid #808080;
+	border-bottom:1px solid #808080;
+	background:url("res/button.gif") repeat-x left top;
+	cursor:pointer;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.buttonLinkDelete{
+	padding:3px;
+	border-top:1px solid #C0C0C0;
+	border-left:1px solid #C0C0C0;
+	border-right:1px solid #808080;
+	border-bottom:1px solid #808080;
+	background:url("res/button_delete.gif") repeat-x left top;
+	cursor:pointer;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.buttonLinkBack{
+	padding:3px;
+	border-top:1px solid #C0C0C0;
+	border-left:1px solid #C0C0C0;
+	border-right:1px solid #808080;
+	border-bottom:1px solid #808080;
+	background:url("res/button_back.gif") repeat-x left top;
+	cursor:pointer;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.iconField{
+	border:1px solid #C0C0C0;
+	background-color:#ffffff;
+	width:200px;
+	padding:0px;
+	height:22px;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.iconField .field{
+	border:0px;
+	background-color:#ffffff;
+	width:90%;
+	height:14px;
+	font-size:11px;
+}
+
+/*********************************** ERROR *****************************************/
+input.error{
+	background-color:#FFFFFF;
+	border:1px solid #CC0000;
+}
+span.error {
+	color:#CC0000;
+	/*font-weight:600;*/
+	margin-left:2px;
+	margin-bottom:2px;
+	display:block;
+}
+
+/*********************************** RECORD LISTING *********************************/
+
+.record_listing {
+	background-color:#E7E7E7;
+}
+
+.record_listing thead th {
+	background-color:#EFEDE0;
+	border:1px solid #FFFFFF;
+	color:#666666;
+	font-family:Verdana;
+	font-size:8pt;
+	font-weight:bold;
+	padding:4px;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.record_listing tr {
+	background-color:#F9F9F9;
+}
+
+.record_listing .normal {
+	background-color:#ffffff;
+}
+
+.record_listing .odd {
+	background-color:#F2F2F2;
+}
+
+.record_listing .selected {
+	background-color:#A29853;
+	color:#000000;
+	cursor:pointer;
+}
+
+.record_listing .highlight{
+	background-color:#D1CCA5;
+	color:#000000;
+	cursor:pointer;
+}
+
+/***************************************PAGING***********************************/
+.customToolbar{
+	padding: 2px 0px;
+}
+
+.customToolbar FONT {
+  font-size: 8pt;
+  font-weight:normal;
+  color:#808080;
+}
+
+.customToolbar ul{
+  font: bold 11px verdana;
+  padding-top: 5px;
+  padding-left: 0;
+  margin-left: 0;
+  height: 30px;
+  margin:0px;
+}
+
+.customToolbar ul li{
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+}
+
+.customToolbar ul li A{
+  color:#0080C8;
+  padding: 4px 0.5em 4px 0.5em;
+  text-decoration: none;
+  background-color: F2F2F2;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FBFBFB; /* must be same as the bgcolor of the container for best result*/
+}
+
+.customToolbar ul li a:link{
+  color:#0080C8;
+  padding: 4px 0.5em 4px 0.5em;
+  text-decoration: none;
+  background-color: F2F2F2;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FBFBFB; /* must be same as the bgcolor of the container for best result*/
+}
+
+.customToolbar ul li a:visited{
+  color:#0080C8;
+  padding: 4px 0.5em 4px 0.5em;
+  text-decoration: none;
+  background-color: F2F2F2;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FBFBFB; /* must be same as the bgcolor of the container for best result*/
+}
+
+.customToolbar ul li a:hover{
+  background-color: #E9E9E9;
+  border-top-color: #ffffff;
+  border-bottom-color: #C5C5C5;
+  border-left-color: #ffffff;
+  border-right-color: #C5C5C5;
+}
+
+.customToolbar ul li span{
+  padding: 4px 0.5em 4px 0.5em;
+  text-decoration: none;
+  color: #c0c0c0;
+  background-color: F2F2F2;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FBFBFB; /* must be same as the bgcolor of the container for best result*/
+}
+
+/* ---------------------------- Calendar -------------------------------*/
+.CalendarTitle{
+	font-size:14px;
+}
+.CalendarTable{
+	border: 1px solid #000000;
+	background-color: #FFFFFF;		
+}
+.CalendarTable THEAD TH{
+	background-color: #808080;
+	border: 1px solid #000000;	
+	font-size: 12px;
+	color: #FFFFFF;
+	padding: 5px;
+}
+.CalendarTable TD{
+	border: 1px solid #000000;	
+	font-size: 12px;
+	color: #000000;
+	vertical-align:top;	
+}
+.CalendarColumn{
+	border: 1px solid #000000;
+	background-color:#FFFFFF;	
+	font-size: 12px;
+}
+.CalendarColumnHoliday{
+	border: 1px solid #FF0000;
+	background-color:#FFDDDD;
+}
+.CalendarColumnToday{
+	border: 1px solid #000000;
+	background-color:#FCCF1F;
+}
+.CalendarColumnMeeting{
+	border: 1px solid #000000;
+	background-color:#B1D3EC;
+	cursor:pointer;
+}

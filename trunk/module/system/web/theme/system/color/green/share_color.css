@@ -1,0 +1,444 @@
+/*********************************** KERNEL *****************************************/
+.moonlight_msgbox{
+	background-color:#C0C0C0
+}
+
+.moonlight_desc{
+	color:#808080;
+}
+
+.moonglight_designer{
+	color:#ff0000;
+}
+
+/*********************************** GENERAL *****************************************/
+
+BODY{
+	background-color:#F2F2F2;
+	color:#000;
+}
+
+TD{
+	color:#000;
+}
+
+INPUT,
+BUTTON,
+TEXTAREA,
+LABEL,
+SELECT{
+	color:#000;
+}
+
+
+A,
+A:link,
+A:visited{
+	color:#0080C0;
+}
+
+A:hover{
+	color:#004080;
+}
+
+.combo{
+	border:1px solid #d1c7ac;
+}
+
+.combo OPTION{
+	border-top:1px dotted #d1c7ac;
+}
+
+.text,
+.text_compulsory{
+	background: transparent url("res/textbox_bg_01.jpg") repeat-x;
+	border:1px solid #d1c7ac;
+	background-color:#ffffff;
+}
+
+.text_focus,
+.text_compulsory_focus{
+	border:1px solid #A28D59;
+	background-color:#EBFFEA;
+}
+
+.text_with_icon,
+.text_compulsory_with_icon{
+	background: transparent url("res/textbox_bg_01.jpg") repeat-x;
+	border:1px solid #d1c7ac;
+	background-color:#ffffff;
+}
+
+.text_with_icon_focus,
+.text_compulsory_with_icon_focus{
+	border:1px solid #A28D59;
+	background-color:#EBFFEA;
+}
+
+.text_datetime,
+.text_compulsory_datetime{
+	background: transparent url("res/textbox_bg_01.jpg") repeat-x;
+	border:1px solid #d1c7ac;
+	background-color:#ffffff;
+}
+
+.text_focus_datetime,
+.text_compulsory_focus_datetime{
+	border:1px solid #A28D59;
+	background-color:#EBFFEA;
+}
+
+.text_icon,
+.text_compulsory_icon,
+.text_datetime_icon,
+.text_compulsory_datetime_icon,
+.text_focus_datetime_icon,
+.text_compulsory_focus_datetime_icon{
+}
+
+.text_textarea,
+.text_compulsory_textarea{
+	background: transparent url("res/textbox_bg_01.jpg") repeat-x;
+	border:1px solid #d1c7ac;
+	background-color:#ffffff;
+}
+
+.text_focus_textarea,
+.text_compulsory_focus_textarea{
+	border:1px solid #A28D59;
+	background-color:#EBFFEA;
+}
+
+.lbl, 
+.lbl label{
+	color: #046B40;
+}
+
+.lbl_compulsory, 
+.lbl_compulsory label{
+	color: #046B40;
+}
+
+
+/*********************************** THEME RELATED *****************************************/
+.themeLeft{
+	/*background: url(res/shadow_left.gif) left repeat-y;
+	width:25px;*/
+}
+
+.themeRight{
+	/*background: 4rl(res/shadow_right.gif) right repeat-y;
+	width:25px;*/
+}
+
+.themeMain{
+}
+
+.themeHeader{
+	vertical-align:top;
+	height:10px;
+}
+
+.themeBody{
+	background-color:#ECFFE1;
+	background-image: url(res/bg.jpg);
+	background-repeat:repeat-x;
+}
+
+.themeBodyLeft{
+}
+
+.themeBodyCentre{
+}
+
+.themeBodyRight{
+}
+
+.themeFooter{
+	background:#0D6126;
+	color:#fff;
+	border-top:1px solid #55984B;
+	border-bottom:1px solid #55984B;
+}
+
+.themeFooter A,
+.themeFooter A:link,
+.themeFooter A:visited,
+.themeFooter A:active{
+	color:#ffffff;
+}
+
+.themeFooter A:hover{
+	color:#ffffff;
+}
+
+.theme_color_selector{
+	border:1px solid #fff;
+}
+
+.theme_color_selector_selected{
+	border:3px solid #fff;
+}
+
+/*********************************** FORM RELATED *****************************************/
+.formLabelCompulsory{
+	color:#0080C0;
+}
+
+.formInput{
+}
+
+.formButtonBar{
+}
+
+.fieldset{
+}
+
+.fieldset .legend{
+	color:#0080C0;
+}
+
+/*********************************** INPUT RELATED *****************************************/
+.button {
+	border: 1px outset #ccc;
+	background: #FF8C00;
+	color: #000000;
+	background:url("res/button.gif") repeat-x left top;
+}
+
+.buttonBack {
+	border: 1px outset #ccc;
+	background: #FF8C00;
+	color: #000000;
+	background:url("res/button_back.gif") repeat-x left top;
+}
+
+.buttonDelete {
+	border: 1px outset #ccc;
+	background: #FF8C00;
+	color: #000000;
+	background:url("res/button_delete.gif") repeat-x left top;
+}
+
+.buttonCancel {
+	border: 1px outset #ccc;
+	background: #FF8C00;
+	color: #000000;
+	background:url("res/button_copy.gif") repeat-x left top;
+}
+
+
+/*********************************** LINK RELATED *****************************************/
+.buttonLink{
+	border-top:1px solid #C0C0C0;
+	border-left:1px solid #C0C0C0;
+	border-right:1px solid #808080;
+	border-bottom:1px solid #808080;
+	background:url("res/button.gif") repeat-x left top;
+}
+
+.buttonLinkDelete{
+	border-top:1px solid #C0C0C0;
+	border-left:1px solid #C0C0C0;
+	border-right:1px solid #808080;
+	border-bottom:1px solid #808080;
+	background:url("res/button_delete.gif") repeat-x left top;
+}
+
+.buttonLinkBack{
+	border-top:1px solid #C0C0C0;
+	border-left:1px solid #C0C0C0;
+	border-right:1px solid #808080;
+	border-bottom:1px solid #808080;
+	background:url("res/button_back.gif") repeat-x left top;
+}
+
+.iconField{
+	border:1px solid #C0C0C0;
+	background-color:#ffffff;
+}
+
+.iconField .field{
+	background-color:#ffffff;
+}
+
+/*********************************** ERROR *****************************************/
+input.error{
+	background-color:#FFFFFF;
+	border:1px solid #CC0000;
+}
+span.error {
+	color:#CC0000;
+}
+
+/*********************************** RECORD LISTING *********************************/
+
+.record_listing {
+	background-color:#E7E7E7;
+	border-bottom:2px solid #2E2628;
+	border-right:1px solid #2E2628;
+}
+
+.record_listing thead th {
+	background-image:url(res/listing_header.jpg);
+	color:#8B8B72;
+}
+
+.record_listing thead th A,
+.record_listing thead th A:link,
+.record_listing thead th A:visited,
+.record_listing thead th A:active,
+.record_listing thead th A:hover{
+	color:#DEB13A;
+}
+
+.record_listing tr {
+	background-color:#F9F9F9;
+}
+
+.record_listing td {
+	color:#000000;
+	border-top:1px dotted #919191;
+	border-right:1px solid #919191;
+}
+
+.record_listing .normal {
+	background-color:#ffffff;
+}
+
+.record_listing .odd {
+	background-color:#F2F2F2;
+}
+
+.record_listing .selected {
+	background-color:#A29853;
+	color:#000000;
+}
+
+.record_listing .highlight{
+	background-color:#D1CCA5;
+	color:#000000;;
+}
+
+.record_listing .remark{
+	color:#808080;
+}
+
+/***************************************PAGING***********************************/
+.customToolbar{
+}
+
+.customToolbar FONT {
+	color:#808080;
+}
+
+.customToolbar ul{
+}
+
+.customToolbar ul li{
+}
+
+.customToolbar ul li A{
+	color:#0080C8;
+}
+
+.customToolbar ul li a:link{
+	color:#0080C8;
+}
+
+.customToolbar ul li a:visited{
+	color:#0080C8;
+}
+
+.customToolbar ul li a:hover{
+}
+
+.customToolbar ul li span{
+	color: #c0c0c0;
+}
+
+/* ---------------------------- Calendar -------------------------------*/
+.CalendarHeader{
+}
+
+.CalendarHeader TR TD{
+	background-image: url(res/calendar_header.gif);
+	color:#747476;
+}
+
+.CalendarTitle{
+}
+
+.CalendarTable{
+	background-color:#D8D7DC;
+}
+
+.CalendarTable THEAD TR TH{
+	background-color:#CECFD3;
+	color:#747476;
+}
+
+.CalendarTable TD{
+	border-top: 1px solid #E8E8EA;	
+	border-right: 1px solid #E8E8EA;	
+	border-bottom: 1px solid #AFB3BC;	
+	border-left: 1px solid #AFB3BC;	
+	color: #2D3842;
+}
+.CalendarTable TD .task_indicator{
+	color:#4E5F72;	
+}
+
+.CalendarColumn{
+	background-color:#FFFFFF;	
+}
+.CalendarColumnHoliday{
+	background-color:#FFDDDD;
+}
+.CalendarColumnToday{
+	background-color:#FCCF1F;
+}
+.CalendarColumnMeeting{
+	background-color:#B1D3EC;
+}
+
+.calendar_day{
+	background-image: url(res/calendar_day_green.gif);
+	color:#000;
+}
+
+.calendar_day .month{
+	color:#000000;
+}
+
+.calendar_day .day{
+	color:#000000;
+}
+
+.calendar_day .weekday{
+}
+
+.calendar_day_holiday{
+	background-image: url(res/calendar_day_red.gif);
+	color:#000;
+}
+
+.calendar_day_holiday .month{
+	color:#000000;
+}
+
+.calendar_day_holiday .day{
+	color:#000000;
+}
+
+.calendar_day_holiday .weekday{
+}
+
+.offline{
+	background-color:#000000;
+	color:#ffffff; 
+}
+
+.offline .important{
+	color:#00FF00; 
+}

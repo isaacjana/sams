@@ -1,0 +1,26 @@
+/*********************************** KERNEL *****************************************/
+.moonlight_msgbox{
+	background-color:#C0C0C0
+}
+
+.moonlight_desc{
+	color:#808080;
+}
+
+.moonglight_designer{
+	color:#ff0000;
+}
+
+/*********************************** GENERAL *****************************************/
+a.danger{
+	color: #dc3545;
+}
+
+/*********************************** ERROR *****************************************/
+input.error{
+	background-color:#FFFFFF;
+	border:1px solid #CC0000;
+}
+span.error {
+	color:#CC0000;
+}

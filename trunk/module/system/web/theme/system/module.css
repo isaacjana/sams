@@ -1,0 +1,520 @@
+.workspace_menu A,
+.workspace_menu A:link,
+.workspace_menu A:active,
+.workspace_menu A:hover,
+.workspace_menu A:visited{
+}
+
+.module_common_menu{
+	clear:both;
+	display:block; 
+}
+
+.module_common_menu TD{
+}
+
+.module_common_menu A,
+.module_common_menu A:link,
+.module_common_menu A:active,
+.module_common_menu A:visited{
+	text-decoration:none;
+}
+
+.module_common_menu A:hover{
+	text-decoration:underline;
+}
+
+.module_footer_extra{
+	border-top:1px solid #D4E0EB;
+}
+
+.item_listing {
+}
+
+.item_listing thead th {	
+	font-size:12px;
+	text-align:center;	
+	padding:2px;
+	
+}
+
+.item_listing tr {
+}
+
+.item_listing tbody td {			
+	padding:2px;	
+}
+
+.workspace_content_title,
+.workspace_content_title A,
+.workspace_content_title A:link,
+.workspace_content_title A:hover,
+.workspace_content_title A:visited,
+.workspace_content_title A:visited,
+.workspace_content_title A:active{
+	font-size:13px;
+	font-weight:bold;
+}
+
+.workspace_content_body{
+	font-size:11px;
+}
+
+.workspace_content_body_2{
+	font-size:11px;
+}
+
+.workspace_content_body_alert{
+	font-size:11px;
+}
+
+.workspace_content_body_seperator{
+	border-top:1px solid #808080;
+}
+
+.workspace_content_desc{
+	font-size:11px;
+}
+
+.workspace_content_blink{
+	font-size:12px;
+	text-decoration:blink;
+	padding:2px 3px 2px 3px;
+	text-decoration:blink;
+}
+
+.workspace_section_title{
+	font-size:13px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-bottom:10px;
+}
+
+.workspace_section_seperator{
+	height:3px;
+	border:none;
+}
+
+.rsvp_workspace_tab{
+	padding:2px 4px;
+}
+
+.profile_title{
+	text-transform:uppercase;
+	text-align:left;
+	font-weight:bold;
+}
+
+.div_note {
+	padding : 10px;
+}
+
+#menu_container {	
+}
+
+#menu_container .menu_dashboard{
+	width:150px;
+}
+#menu_container .menu_dashboard A,
+#menu_container .menu_dashboard A:link,
+#menu_container .menu_dashboard A:visited,
+#menu_container .menu_dashboard A:active,
+#menu_container .menu_dashboard A:hover{
+}
+
+#menu_container .logout_link{
+}
+
+#menu_container .logout_link A,
+#menu_container .logout_link A:link,
+#menu_container .logout_link A:visited,
+#menu_container .logout_link A:active,
+#menu_container .logout_link A:hover{
+}
+
+/*
+#menu_container .menu_seperator{
+	width:15px;
+}
+
+#menu_container .menu_item{
+	width:830px;
+}
+#menu_container .menu_item A,
+#menu_container .menu_item A:link,
+#menu_container .menu_item A:visited,
+#menu_container .menu_item A:active{
+	padding:3px;
+}
+
+#menu_container .menu_item A:hover{
+	text-decoration:none;
+	padding:3px;
+}
+*/
+
+/*
+#menu_container .menu_item_admin{
+	width:200px;
+	position:absolute;
+	margin-top: 18px;
+	padding:0px;
+	display:none;
+}
+#menu_container .menu_item_admin TD{
+	padding:5px;
+}
+#menu_container .menu_item_admin A,
+#menu_container .menu_item_admin A:link,
+#menu_container .menu_item_admin A:visited,
+#menu_container .menu_item_admin A:active{
+}
+#menu_container .menu_item_admin A:hover{
+}
+
+#menu_container .menu_item_level2{
+}
+#menu_container .menu_item_level2 A,
+#menu_container .menu_item_level2 A:link,
+#menu_container .menu_item_level2 A:visited,
+#menu_container .menu_item_level2 A:active{
+}
+#menu_container .menu_item_level2_hover{
+	cursor:pointer;
+}
+#menu_container .menu_item_level2_hover A,
+#menu_container .menu_item_level2_hover A:link,
+#menu_container .menu_item_level2_hover A:visited,
+#menu_container .menu_item_level2_hover A:active,
+#menu_container .menu_item_level2_hover A:hover{
+	text-decoration:none;
+}
+#menu_container .menu_item_facility{
+	width:150px;
+	position:absolute;
+	margin-top: 18px;
+	padding:0px;
+	display:none;
+}
+#menu_container .menu_item_facility TD{
+	padding:5px;
+}
+#menu_container .menu_item_facility A,
+#menu_container .menu_item_facility A:link,
+#menu_container .menu_item_facility A:visited,
+#menu_container .menu_item_facility A:active{
+}
+
+#menu_container .menu_item_facility A:hover{
+}
+
+#menu_container .menu_item_search{
+	width:300px;
+	margin-top: 18px;
+	position:absolute;
+	padding:0px;
+	display:none;
+}
+#menu_container .menu_item_search TD{
+	padding:5px;
+}
+#menu_container .menu_item_search A,
+#menu_container .menu_item_search A:link,
+#menu_container .menu_item_search A:visited,
+#menu_container .menu_item_search A:active{
+}
+#menu_container .menu_item_search A:hover{
+}
+*/
+
+.rsvp_pending{
+	padding:2px;
+}
+.rsvp_pending A,
+.rsvp_pending A:link,
+.rsvp_pending A:active,
+.rsvp_pending A:hover,
+.rsvp_pending A:visited{
+}
+
+.rsvp_responded_confirmed{
+	padding:2px;
+}
+.rsvp_responded_confirmed A,
+.rsvp_responded_confirmed A:link,
+.rsvp_responded_confirmed A:active,
+.rsvp_responded_confirmed A:hover,
+.rsvp_responded_confirmed A:visited{
+}
+
+.rsvp_responded_declined{
+	padding:2px;
+}
+.rsvp_responded_declined A,
+.rsvp_responded_declined A:link,
+.rsvp_responded_declined A:active,
+.rsvp_responded_declined A:hover,
+.rsvp_responded_declined A:visited{
+}
+
+/***** SUPERFISH **************************************************/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+	text-decoration:none;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			2.5em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+.sf-menu {
+	float:			left;
+	/*margin-bottom:	1em;*/
+}
+.sf-menu a {
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+}
+.sf-menu li {
+}
+.sf-menu li li {
+}
+.sf-menu li li li {
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	outline:		0;
+	text-decoration:none;
+}
+
+.sf-menu .current{
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+/***** SUPERFISH **************************************************/
+
+/*** Module Tab ***/
+.sub_menu{
+}
+
+.sub_menu td{
+	/*padding:10px;*/
+	/*width: 155px;*/
+}
+
+.sub_menu .normal{
+	cursor:pointer;
+	vertical-align:top;
+	width:110px;
+}
+
+.sub_menu .normal TD{
+	padding:3px;
+}
+
+.sub_menu .none{
+	border:0px;
+}
+
+.sub_menu .figure{
+	padding:1px 5px 1px 5px;
+}
+
+.sub_menu .figure_image{
+	padding:0px 0px 2px 0px;
+}
+
+.sub_menu .highlight {
+	cursor:pointer;
+	vertical-align:top;
+	width: 110px;
+}
+
+.sub_menu .highlight TD{
+	padding:3px;
+}
+
+.sub_menu A:hover{
+	text-decoration:none;
+}
+
+.sub_menu_content{
+	display:none;
+	width:100%; 
+	text-align:left;
+	padding-top:15px;
+	font-weight:normal;
+}
+
+.sub_menu_title{
+	text-align:left;
+	font-weight:bold;
+	background-color:#C0D3D3;
+	padding:5px;
+	margin-top:10px;
+	width:100%;
+	font-size:14px;
+}
+
+.document_seperator{
+	padding:0px 4px;
+}
+
+
+.mtg_title{
+	font-size:12pt;
+	font-weight: bold;
+}
+
+.meeting_offline{
+	padding:15px; 
+	width:200px;
+	text-align:center; 
+	vertical-align:top;
+}
+
+.meeting_offline_title{
+	font-weight:bold;
+}
+
+.meeting_offline_important{
+	text-align:left;
+	font-weight:bold;
+}
+
+.meeting_offline_information{
+	text-align:left;
+}
+
+.offline_sync_title{
+	font-weight:bold;
+}
+.offline_sync_title_failed{
+	font-weight:bold;
+}
+.offline_sync_desc{
+	line-height:1.5;
+}
+.offline_download_installer_now{
+	padding:10px;
+	font-size:12px;
+	font-weight:bold;
+}
+.offline_download_now{
+	padding:10px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.figure{
+	padding:1px 5px 1px 5px;
+}
+
+.figure_menu{
+	padding:1px 5px 1px 5px;
+}
+
+.momStatus{
+	padding:5px;
+	font-size:16px;
+	position:relative;
+	margin:3px;
+	text-align:left;
+	font-weight:bold;
+}

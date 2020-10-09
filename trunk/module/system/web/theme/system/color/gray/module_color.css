@@ -1,0 +1,420 @@
+.workspace_menu A,
+.workspace_menu A:link,
+.workspace_menu A:active,
+.workspace_menu A:hover,
+.workspace_menu A:visited{
+	color:#000000;
+}
+
+.module_common_menu{
+	background:#2E404A;
+	border-bottom:1px solid #ffffff;
+	color:#ffffff;
+}
+
+.module_common_menu TD{
+	color:#ffffff;
+}
+
+.module_common_menu A,
+.module_common_menu A:link,
+.module_common_menu A:active,
+.module_common_menu A:visited{
+	color:#ffffff;
+}
+
+.module_common_menu A:hover{
+	color:#DCB239;
+}
+
+.module_footer_extra{
+	background-color:#DADADA;
+	border-top:1px solid #D4D4DC;
+}
+
+.item_listing {
+	background-color:#000000;		
+}
+
+.item_listing thead th {	
+	background-color:#C0C0C0;	
+	color:#000000;		
+	
+}
+
+.item_listing tr {
+	background-color:#FFFFFF;
+}
+
+.item_listing tbody td {			
+}
+
+.workspace_content_title,
+.workspace_content_title A,
+.workspace_content_title A:link,
+.workspace_content_title A:hover,
+.workspace_content_title A:visited,
+.workspace_content_title A:visited,
+.workspace_content_title A:active{
+	color:#5C6B70;
+}
+
+.workspace_content_body{
+	color:#000000;
+}
+
+.workspace_content_body_2{
+	color:#5C6B70;
+}
+
+.workspace_content_body_alert{
+	color:#ff0000;
+}
+
+.workspace_content_body_seperator{
+	border-top:1px solid #8D8EA0;
+}
+
+.workspace_content_desc{
+	color:#808080;
+}
+
+.workspace_content_blink{
+	color:#FFFFFF;
+	background-color:#FF0000;
+}
+
+.workspace_section_title{
+	color:#A87816;
+}
+
+.workspace_section_seperator{
+	color:#EDEDED;
+	background-color:#EDEDED;
+}
+
+.rsvp_workspace_tab{
+	background:#5BA04F;
+}
+
+.profile_title{
+	/*border-bottom:1px solid #126E00;*/
+	color:#126E00;
+}
+
+.profile_body{
+	color:#EBFEDE;
+}
+
+.div_note {
+	background: #EDE395;
+	border: 1px solid #808080;
+	border-right: 2px solid #808080;
+	border-bottom: 2px solid #808080;
+}
+
+#menu_container {	
+	color: #fff;
+	border-bottom:1px solid #fff;
+	background:#475153;
+}
+
+#menu_container .menu_dashboard{
+}
+#menu_container .menu_dashboard A,
+#menu_container .menu_dashboard A:link,
+#menu_container .menu_dashboard A:visited,
+#menu_container .menu_dashboard A:active,
+#menu_container .menu_dashboard A:hover{
+	color:#fff;
+}
+
+#menu_container .logout_link{
+	color:#fff;
+}
+#menu_container .logout_link A,
+#menu_container .logout_link A:link,
+#menu_container .logout_link A:visited,
+#menu_container .logout_link A:active,
+#menu_container .logout_link A:hover{
+	color:#ffffff;
+}
+
+/*
+#menu_container .menu_item{
+}
+#menu_container .menu_item A,
+#menu_container .menu_item A:link,
+#menu_container .menu_item A:visited,
+#menu_container .menu_item A:active{
+	color:#fff;
+}
+
+#menu_container .menu_item A:hover{
+	background-color:#136F00;
+}
+
+#menu_container .menu_seperator{
+}
+
+#menu_container .menu_item_admin{
+	background-color:#E2E2E2;
+	border:2px solid #E2E2E2;
+}
+#menu_container .menu_item_admin TD{
+	color:#134273;
+}
+#menu_container .menu_item_admin A,
+#menu_container .menu_item_admin A:link,
+#menu_container .menu_item_admin A:visited,
+#menu_container .menu_item_admin A:active{
+	color:#01346A;
+}
+#menu_container .menu_item_admin A:hover{
+	color:#ffffff;
+}
+
+#menu_container .menu_item_level2{
+	color:#01346A;
+	border-bottom:1px solid #01346A;
+}
+#menu_container .menu_item_level2 A,
+#menu_container .menu_item_level2 A:link,
+#menu_container .menu_item_level2 A:visited,
+#menu_container .menu_item_level2 A:active{
+	color:#01346A;
+}
+#menu_container .menu_item_level2_hover{
+	background-image:url(res/menu_bg.jpg);
+}
+#menu_container .menu_item_level2_hover A,
+#menu_container .menu_item_level2_hover A:link,
+#menu_container .menu_item_level2_hover A:visited,
+#menu_container .menu_item_level2_hover A:active,
+#menu_container .menu_item_level2_hover A:hover{
+	color:#ffffff;
+}
+#menu_container .menu_item_facility{
+	background-color:#E2E2E2;
+	border:2px solid #E2E2E2;
+}
+#menu_container .menu_item_facility TD{
+	color:#134273;
+}
+#menu_container .menu_item_facility A,
+#menu_container .menu_item_facility A:link,
+#menu_container .menu_item_facility A:visited,
+#menu_container .menu_item_facility A:active{
+	color:#01346A;
+}
+
+#menu_container .menu_item_facility A:hover{
+	color:#ffffff;
+}
+
+#menu_container .menu_item_search{
+	background-color:#E2E2E2;
+	border:2px solid #E2E2E2;
+}
+#menu_container .menu_item_search TD{
+	color:#134273;
+}
+#menu_container .menu_item_search A,
+#menu_container .menu_item_search A:link,
+#menu_container .menu_item_search A:visited,
+#menu_container .menu_item_search A:active{
+	color:#01346A;
+}
+#menu_container .menu_item_search A:hover{
+	color:#ffffff;
+}
+*/
+
+.rsvp_pending{
+	background:#BA9400;
+}
+.rsvp_pending A,
+.rsvp_pending A:link,
+.rsvp_pending A:active,
+.rsvp_pending A:hover,
+.rsvp_pending A:visited{
+	color:	#000000;
+}
+
+.rsvp_responded_confirmed{
+	background:#00A255;
+}
+.rsvp_responded_confirmed A,
+.rsvp_responded_confirmed A:link,
+.rsvp_responded_confirmed A:active,
+.rsvp_responded_confirmed A:hover,
+.rsvp_responded_confirmed A:visited{
+	color:	#000000;
+}
+
+.rsvp_responded_declined{
+	background:#FF5E5E;
+}
+.rsvp_responded_declined A,
+.rsvp_responded_declined A:link,
+.rsvp_responded_declined A:active,
+.rsvp_responded_declined A:hover,
+.rsvp_responded_declined A:visited{
+	color:	#000000;
+}
+
+/***** SUPERFISH **************************************************/
+.sf-menu {
+	float:			left;
+	/*margin-bottom:	1em;*/
+}
+.sf-menu a {
+	/*
+	border-left:	1px solid #fff;
+	border-top:		1px solid #CFDEFF;
+	*/
+	color:			#ffffff;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#ffffff;
+}
+
+/* level 1 */
+.sf-menu li { 
+	background:		#475153;
+}
+
+/* level 2 */
+.sf-menu li li {  /* level 2 normal item */
+	background:		#E2E2E2;
+	border-top:		1px solid #B8B8C0;
+}
+.sf-menu li li a,
+.sf-menu li li a:visited{ /* level 2 link color*/
+	color:			#2E404A;
+}
+
+/* level 3 */
+.sf-menu li li li {
+	background:		#263353;
+}
+
+/* all - drop down (mouse-over) */
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu li li a:hover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#2E404A;
+	outline:		0;
+	color:			#ffffff;
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+}
+.sf-sub-indicator {
+	background:		url('res/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator {  }
+.sf-menu ul a > .sf-sub-indicator {  }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+}
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:	url('res/shadow.png') no-repeat bottom right;
+}
+.sf-shadow ul.sf-shadow-off {
+}
+/***** SUPERFISH **************************************************/
+
+/*** Module Tab ***/
+.sub_menu{
+}
+.sub_menu td{
+}
+.sub_menu .normal{
+	border-top : 1px solid #C0C0C0;
+	border-left : 1px solid #C0C0C0;
+	border-right : 1px solid #C0C0C0;
+	border-bottom : 1px solid #C0C0C0;
+}
+.sub_menu .normal TD{
+}
+.sub_menu .none{
+	border-bottom : 1px solid #C0C0C0;
+}
+.sub_menu .figure{
+	background-color:#475153;
+	color:#ffffff;
+}
+.sub_menu .highlight {
+	background:	url('res/tab_bg.jpg') repeat-x;
+	border-top : 1px solid #C0C0C0;
+	border-left : 1px solid #C0C0C0;
+	border-right : 1px solid #C0C0C0;
+	border-bottom : 0px;
+}
+.sub_menu .highlight TD{
+}
+
+.sub_menu A:hover{
+}
+
+.sub_menu_content{
+}
+
+.sub_menu_title{
+	background-color:#C0D3D3;
+}
+
+.document_seperator{
+	border-left:1px solid #C0C0C0;
+}
+
+.meeting_offline{
+	border:1px solid #808080;
+	background-color:#ffffff;
+}
+.meeting_offline_title{
+}
+.meeting_offline_important{
+	color:#ff0000;
+}
+.meeting_offline_information{
+}
+
+.offline_sync_title{
+}
+.offline_sync_title_failed{
+	color:#ff0000;
+}
+.offline_sync_desc{
+}
+.offline_download_installer_now{
+	border:1px solid #000000;
+	background-color:#c4c4c4;
+}
+.offline_download_now{
+	border:1px solid #000000;
+	background-color:#ffffff;
+}
+.figure{
+	background-color:#475153;
+	color:#ffffff;
+}

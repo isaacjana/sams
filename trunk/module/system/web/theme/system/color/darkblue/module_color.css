@@ -1,0 +1,70 @@
+.workspace_menu A,
+.workspace_menu A:link,
+.workspace_menu A:active,
+.workspace_menu A:hover,
+.workspace_menu A:visited{
+}
+
+.module_common_menu{
+}
+
+.module_common_menu TD{
+}
+
+.module_common_menu A,
+.module_common_menu A:link,
+.module_common_menu A:active,
+.module_common_menu A:visited{
+}
+
+.module_common_menu A:hover{
+}
+
+.module_footer_extra{
+	border-top:1px solid #D4E0EB;
+}
+
+.item_listing {
+}
+
+.item_listing thead th {	
+}
+
+.item_listing tr {
+}
+
+.item_listing tbody td {			
+}
+
+.workspace_content_title,
+.workspace_content_title A,
+.workspace_content_title A:link,
+.workspace_content_title A:hover,
+.workspace_content_title A:visited,
+.workspace_content_title A:visited,
+.workspace_content_title A:active{
+}
+
+.workspace_content_body{
+}
+
+.workspace_content_desc{
+}
+
+.workspace_content_blink{
+}
+
+.workspace_content_body_alert{
+}
+
+.workspace_section_title{
+}
+
+.workspace_section_seperator{
+}
+
+.profile_title{
+}
+
+.div_note {
+}

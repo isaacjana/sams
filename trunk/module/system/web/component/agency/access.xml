@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<access>
+	<default>group_adm_agency</default>
+	<exception>
+		<file>
+			<name>dept_add</name>
+			<access>group_adm_agency_dept</access>
+		</file>
+		<file>
+			<name>dept_edit</name>
+			<access>group_adm_agency_dept</access>
+		</file>
+		<file>
+			<name>dept_del</name>
+			<access>group_adm_agency_dept</access>
+		</file>
+		<file>
+			<name>sec_add</name>
+			<access>group_adm_agency_sec</access>
+		</file>
+		<file>
+			<name>sec_edit</name>
+			<access>group_adm_agency_sec</access>
+		</file>
+		<file>
+			<name>sec_del</name>
+			<access>group_adm_agency_sec</access>
+		</file>
+	</exception>
+</access>

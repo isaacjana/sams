@@ -1,0 +1,1 @@
+<?PHPprint chr(10).chr(10).chr(10).chr(10).chr(10).chr(10).chr(10);print 'Start:'.chr(10);if ($argc>1){	if($argv[1]=="poiu0987"){		//proceed		}	else{		echo $msg_invalid_key;		exit;	}}else{    echo $msg_not_allow;    exit;}$v_here = file('http://10.18.4.39/apps/ems/syn/system/cronjob/syn_check/');print_r($v_here);print chr(10).chr(10).chr(10);print chr(10);?>

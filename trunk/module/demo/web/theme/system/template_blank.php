@@ -1,0 +1,1 @@
+<?phpecho \V::output_variable($v_body);?>

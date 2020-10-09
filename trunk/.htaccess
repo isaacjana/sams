@@ -1,0 +1,59 @@
+Options -Indexes
+
+AddDefaultCharset utf-8
+#AddDefaultCharset ISO-8859-1
+
+#Options +FollowSymlinks
+RewriteEngine On
+RewriteRule .* - [E=MOONLIGHT_FOLDER:/apps/sams/trunk/]  
+
+#RewriteBase /apps/moonlight/
+
+# Redirect all image request to file.php, if the images is NOT located in /plugin/ folder
+# Remarked on 2010-07-07, due to this method will cause the images cannot be cached.
+#RewriteCond %{REQUEST_URI} !^/([a-zA-Z0-9]*)/([a-zA-Z0-9]*)/plugin/(.*)$
+#RewriteRule ^(.*)\.(bmp|gif|jpg|jpeg|pjpeg|swf|flv|png)$ file.php/$1 [L]
+
+# Redirect all *.php and URL ended with "/" to index.php if the php file is NOT located in /plugin/ folder.
+RewriteCond %{REQUEST_FILENAME} !^(.*/)file\.php$
+RewriteCond %{REQUEST_FILENAME} !^/([a-zA-Z0-9]*)/([a-zA-Z0-9]*)/plugin/(.*)$
+RewriteRule ^(.*)\.php$ index.php?/$1 [PT,QSA,L]  
+RewriteRule ^(.*)/$ index.php?/$1 [PT,QSA,L]
+
+# Redirect CSS/JS/Images file to correct file path if the URL is NOT a physical file/folder path, AND
+# in these format:
+#   => _/web/_/_/*.js 
+#   => _/web/_/_/*.css 
+#   => _/web/js/*.js 
+#   => _/mobile/_/_/*.js 
+#   => _/mobile/_/_/*.css 
+# This way, browser/server will automatically cache the files for faster access.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9_]*)/web/js/([a-zA-Z0-9_]*)\.js$ %{ENV:MOONLIGHT_FOLDER}module/$1/web/js/$2.js [L]
+RewriteRule ^([a-zA-Z0-9_]*)/web/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)\.css$ %{ENV:MOONLIGHT_FOLDER}module/$1/web/theme/$2/$3.css [L]
+RewriteRule ^([a-zA-Z0-9_]*)/web/([a-zA-Z0-9_]*)/color/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)\.css$ %{ENV:MOONLIGHT_FOLDER}module/$1/web/theme/$2/color/$3/$4.css [L]
+RewriteRule ^([a-zA-Z0-9_]*)/web/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)\.js$ %{ENV:MOONLIGHT_FOLDER}module/$1/web/theme/$2/$3.js [L]
+RewriteRule ^([a-zA-Z0-9_]*)/mobile/js/([a-zA-Z0-9_]*)\.js$ %{ENV:MOONLIGHT_FOLDER}module/$1/mobile/js/$2.js [L]
+RewriteRule ^([a-zA-Z0-9_]*)/mobile/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)\.css$ %{ENV:MOONLIGHT_FOLDER}module/$1/mobile/theme/$2/$3.css [L]
+RewriteRule ^([a-zA-Z0-9_]*)/mobile/([a-zA-Z0-9_]*)/color/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)\.css$ %{ENV:MOONLIGHT_FOLDER}module/$1/web/theme/$2/color/$3/$4.css [L]
+RewriteRule ^([a-zA-Z0-9_]*)/mobile/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)\.js$ %{ENV:MOONLIGHT_FOLDER}module/$1/mobile/theme/$2/$3.js [L]
+RewriteRule ^k/(.*)\.(bmp|gif|jpg|jpeg|pjpeg|swf|flv|png)$ file.php?/$1 [L]
+RewriteRule ^([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)/res/([a-zA-Z0-9_]*)\.(bmp|gif|jpg|jpeg|pjpeg|swf|flv|png)$ %{ENV:MOONLIGHT_FOLDER}module/$1/$2/theme/$3/res/$4.$5 [L]
+RewriteRule ^([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)/color/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)\.(bmp|gif|jpg|jpeg|pjpeg|swf|flv|png)$ %{ENV:MOONLIGHT_FOLDER}module/$1/$2/theme/$3/color/$4/$5/$6.$7 [L]
+RewriteRule ^([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)/([a-zA-Z0-9_]*)\.(bmp|gif|jpg|jpeg|pjpeg|swf|flv|png)$ %{ENV:MOONLIGHT_FOLDER}module/$1/$2/theme/$3/$4/$5/$6.$7 [L]
+
+# Make sure URL that seems like a directory (eg. http://company.com/edit/20) to have a trailing /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [PT,QSA,L]
+
+
+# Security setting
+<IfModule mod_headers.c>
+	Header set X-Frame-Options DENY
+    Header set Content-Security-Policy "default-src 'self' 'unsafe-inline' 'unsafe-eval' *.snt.com.my;frame-ancestors 'self' http://*.snt.com.my;" 
+	Header set X-Content-Type-Options "nosniff"
+	Header set X-XSS-Protection "1; mode=block"
+	Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+</IfModule>

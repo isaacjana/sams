@@ -1,0 +1,1 @@
+<div class="box">	<div class="title"><?php echo $v_box_title; ?></div>	<div class="content"><?php echo $v_box_content; ?></div></div>
